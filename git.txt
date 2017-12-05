@@ -14,3 +14,32 @@ git init
 
 git status
 git diff
+
+
+
+git status
+git diff
+
+git add git.txt
+git status
+
+git commit -m "..."
+
+
+banben 2
+
+
+git log 查看日志
+git  log --pretty =oneline
+
+
+
+
+
+工作区和暂存区
+我们电脑的目录是工作区。
+
+
+git 自动创建的 第一个分支  master 指针HEAD
+git add 添加文件 就是添加到暂存区。
+git commit 就是提交到当前分支。 
