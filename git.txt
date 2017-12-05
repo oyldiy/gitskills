@@ -1,5 +1,5 @@
-1�������汾��
-�ֿ���	repository ������ΪĿ¼��Ŀ¼�������е��ļ����Ա�git����������ÿ���ļ����޸ģ�ɾ����git�����Ը��٣��Ա��κ��¿��Կ���׷����ʷ�汾�����߽���ĳ��ʱ�̻�ԭ��
+1，创建版本库
+仓库名	repository 简单理解为目录。目录里面所有的文件可以被git管理起来。每个文件的修改，删除，git都可以跟踪，以便任何事可以可以追踪历史版本，或者将来某个时刻还原。
 
 
 mkdir gitck
@@ -7,10 +7,10 @@ cd gitck
 
 
 git init 
-�������ѵ�ǰĿ¼���git���Թ����Ĳֿ��ˡ�
+这个命令把当前目录变成git可以管理的仓库了。
 
 
-2��ʱ�⴩���
+2，时光穿梭机
 
 git status
 git diff
@@ -29,17 +29,26 @@ git commit -m "..."
 banben 2
 
 
-git log �鿴��־
+git log 查看日志
 git  log --pretty =oneline
 
 
 
 
 
-���������ݴ���
-���ǵ��Ե�Ŀ¼�ǹ�������
+工作区和暂存区
+我们电脑的目录是工作区。
 
 
-git �Զ������� ��һ����֧  master ָ��HEAD
-git add �����ļ� �������ӵ��ݴ�����
-git commit �����ύ����ǰ��֧�� 
+git 自动创建的 第一个分支  master 指针HEAD
+git add 添加文件 就是添加到暂存区。
+git commit 就是提交到当前分支。
+
+
+
+ pull = fetch+merge
+ git pull --rebase origin master
+ 
+ git push -u origin master
+ ok
+ 
