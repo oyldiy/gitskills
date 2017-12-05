@@ -1,0 +1,16 @@
+1，创建版本库
+仓库名	repository 简单理解为目录。目录里面所有的文件可以被git管理起来。每个文件的修改，删除，git都可以跟踪，以便任何事可以可以追踪历史版本，或者将来某个时刻还原。
+
+
+mkdir gitck
+cd gitck
+
+
+git init 
+这个命令把当前目录变成git可以管理的仓库了。
+
+
+2，时光穿梭机
+
+git status
+git diff
